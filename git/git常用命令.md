@@ -17,6 +17,7 @@ git merge master (把主分支的代码merge到自己的分支)
 ### git创建新的分支无法拉取代码的问题
 
 ```js
+报错如下：
 $ git pull 
 
 There is no tracking information for the current branch.
@@ -36,6 +37,7 @@ If you wish to set tracking information for this branch you can do so with:
 
 ```js
 git tag (查看tag)
+
 创建tag对象
 git tag -a 1.0.2.20210726 -m ‘release 1.0.2’ (打tag) (1.0.2是版本号、0726日期)
 
