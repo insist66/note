@@ -1,4 +1,4 @@
-### git常用命令
+######    git常用命令
 
 ```js
 git status (查看当前状态)
@@ -14,7 +14,7 @@ git push origin demo:demo (将分支提交到仓库 demo分支的名字demo文�
 git merge master (把主分支的代码merge到自己的分支)
 ```
 
-### git创建新的分支无法拉取代码的问题
+######    git创建新的分支无法拉取代码的问题
 
 ```js
 报错如下：
@@ -31,9 +31,9 @@ If you wish to set tracking information for this branch you can do so with:
     git branch --set-upstream-to=origin/<branch> b
 ```
 
-这时候直接执行：git branch --set-upstream-to=origin/远程分支的名字 再pull就行了
+   这时候直接执行：git branch --set-upstream-to=origin/远程分支的名字 再pull就行了
 
-### git打tag流程
+######    git打tag流程
 
 ```js
 git tag (查看tag)
