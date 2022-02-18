@@ -49,3 +49,9 @@ git push origin 1.0.2.20210726
 2、git push origin :refs/tags/要删除的远程版本号(例如：2.3.9.20210402)
 ```
 
+###### git安装service子模块
+
+```js
+git submodule add http://git.laixuejigou.com/laixuejigou/lx-vue-service.git src/plugins/service
+```
+
